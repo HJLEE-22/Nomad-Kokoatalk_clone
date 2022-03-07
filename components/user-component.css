@@ -36,6 +36,7 @@
 .user-component__subtitle{
     font-size: 14px;
     color: rgba(0, 0, 0, 0.3);
+    width: 150px;
 }
 
 

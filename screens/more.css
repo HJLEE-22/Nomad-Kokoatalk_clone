@@ -43,7 +43,7 @@
 .more-suggestions__img span{
     font-weight: 400;
     color:rgba(0, 0, 0, 0.5);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .more-user-component__icon{
@@ -53,8 +53,9 @@
 .more-user-component__text__column i{
     color: tomato;
     opacity: 80%;
-
+    
 }
+
 
 .more-big-icons{
     padding-top: 10px;
