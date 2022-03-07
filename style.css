@@ -13,6 +13,7 @@
 @import url(components/number__notif.css);
 @import url(components/big-icons.css);
 @import url(components/no-bigscreen.css);
+@import url(components/splash-screen.css);
 
 /* screens */
 @import url(screens/login.css);

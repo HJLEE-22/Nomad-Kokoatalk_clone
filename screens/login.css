@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 25px 25px 50px 25px;
+    margin: 0 25px 50px 25px;
+    padding-top: 50px;
 
 }
 
@@ -27,16 +28,16 @@
 #login-infom input{
     border-style: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
-    /*border에만 Opacity를 주려면 어떻게? -> rgba로.*/
+    
     transition: border-color 0.3s ease-in-out;
-    /*전환시간에 s 안붙이니까 안되네...*/
+    
 }
-/* border와 Placehorder의 간격은?*/
+
 
 #login-infom input:focus{
     border-color: var(--yellow);
     outline: none;
-}/*클릭했을 때 파란색 보더가 사라지지 않는 문제에 직면 -> outline으로 따로 설정...*/
+}
 
 
 
