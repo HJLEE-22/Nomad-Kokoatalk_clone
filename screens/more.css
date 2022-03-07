@@ -37,7 +37,6 @@
     height: 50px;
     padding: 10px;
     border-radius: 20px;;
-
 }
 
 .more-suggestions__img span{
@@ -50,12 +49,22 @@
     font-size: 20px;
 }
 
+.more-user-component__text__column{
+    display: flex;
+    flex-direction: column;
+}
+
 .more-user-component__text__column i{
     color: tomato;
     opacity: 80%;
     
 }
 
+.more-user-component__number__column{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .more-big-icons{
     padding-top: 10px;
