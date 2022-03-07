@@ -63,6 +63,7 @@ padding: 0 var(--horizontal-space) 10px;
 .openchat__tags{
     color: rgba(0,0,0, 0.4);
     padding-bottom: 5px;
+    width: 175px;
 }
 
 .openchat__members{
