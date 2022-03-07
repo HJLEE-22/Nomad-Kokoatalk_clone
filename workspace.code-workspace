@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../../../coding Practice/nomad/kokoatalk"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../challenge6"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Nomad-Kokoatalk_clone"
+  }
+}

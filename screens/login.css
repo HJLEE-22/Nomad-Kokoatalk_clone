@@ -1,0 +1,73 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px 25px 50px 25px;
+
+}
+
+.header{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.welcome p{
+    opacity: 0.6;
+}
+
+
+#login-infom{
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 20px;
+}
+#login-infom input{
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+    /*border에만 Opacity를 주려면 어떻게? -> rgba로.*/
+    transition: border-color 0.3s ease-in-out;
+    /*전환시간에 s 안붙이니까 안되네...*/
+}
+/* border와 Placehorder의 간격은?*/
+
+#login-infom input:focus{
+    border-color: var(--yellow);
+    outline: none;
+}/*클릭했을 때 파란색 보더가 사라지지 않는 문제에 직면 -> outline으로 따로 설정...*/
+
+
+
+
+
+
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.login-btn button[type="submit"]{
+    height: 40px;
+    margin: 5px 20px;
+    background-color: var(--yellow);
+    box-shadow: none;
+    border-radius: 8px;
+    cursor: pointer;
+    /* 이상한 쉐도우 생겨서 안없어짐 아놔*/
+}
+
+
+
+a{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+    font-size: 15px;
+}

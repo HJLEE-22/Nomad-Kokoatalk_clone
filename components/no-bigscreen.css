@@ -1,0 +1,19 @@
+
+#no-bigscreen{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 219, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 575px){
+    #no-bigscreen{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

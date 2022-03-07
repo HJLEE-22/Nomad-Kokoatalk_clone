@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>chat- Kokoatalk</title>
+</head>
+<body id="chat-body" >
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <span><i class="fas fa-wifi"></i></span>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <span><i class="fas fa-battery-quarter"></i></span>
+        </div>
+    </div>
+
+    <div class="settings-header setting-header__chat">
+        <div class="settings-header__left">
+            <a class="link_margin-zero" href="chats.html">
+                <i class="far fa-chevron-left"></i>
+            </a>
+        </div>
+        <div>Nicolás Serrano</div>
+        <div class="settings-header__right">
+            <i class="far fa-search"></i>
+            <i class="far fa-bars"></i>
+        </div>  
+    </div>
+
+
+    
+<main class= "friends-screen chat-screen">
+    
+    <div class="chat-date">
+        <span>Tuesday, June 30, 2020</span>
+    </div>
+    
+
+    <div class="message-row">
+        <img src="http://127.0.0.1:5500/img/ec34248b3f9f424a90c03ea41831596be1633927cc90d266c393d0269dd595bafa52ac9bf1ff8317a846647b539ec30bcd8d8fe525f2f72db52a33d2d9ae5a0d914d7194f54953e5e2bd1eb71abc4ae0.png" alt="">
+        <div class="message-row__content">
+            <span class="message__author">Nicolás Serrano</span>
+            <div class="message__info">
+                <div class="message__bubble">Hi!</div>
+                <div class="message__time">21:27</div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <div class="message__bubble">Hi! Nice to meet you</div>
+                <div class="message__time">21:27</div>
+            </div>    
+        </div>
+    </div>
+
+</main>
+
+<form class="reply" action="">
+    <i class="far fa-plus-square"></i>
+    <div class="reply__column">
+        <input type="text" placeholder="Please write a message...">
+        <i class="reply__smile far fa-smile"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+    </div>
+</form>
+
+<div id="no-bigscreen">
+    <span>Your screen is too big. <br> Please use your mobile phone.</span>
+</div>
+
+    <script src="https://kit.fontawesome.com/3424f68347.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

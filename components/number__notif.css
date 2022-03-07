@@ -1,0 +1,22 @@
+.number__notif{
+    background-color: tomato;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point{
+    width: 6px;
+    height: 6px;
+    background-color: tomato;
+    border-radius: 3px;
+
+    }
+
+    .number__notif__letter{
+        color: white;
+        font-size: 10px;
+    }

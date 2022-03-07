@@ -1,0 +1,60 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px var(--horizontal-space) 15px var(--horizontal-space);
+
+    color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+
+}
+
+.screen-header__name{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.screen-header__icons{
+    display: flex;
+    
+}
+
+.screen-header__icons i{
+
+    padding: 0 10px;
+}
+
+.screen-header__link{
+    position: relative;
+
+    
+    
+}
+
+.screen-header-point{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.screen-header__icons a{
+    margin: 0;
+}
+
+.settings-header__left{
+    display:flex;
+
+}
+
+@keyframes rotateAnimation {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__link i:hover{
+    animation: rotateAnimation 1s linear infinite;
+}
